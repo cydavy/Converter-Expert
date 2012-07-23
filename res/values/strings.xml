@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="result">Result</string>
+    <string name="hint">Value</string>
+    <string name="hint2">Result</string>
+    <string name="swap">Swap</string>
+
+</resources>

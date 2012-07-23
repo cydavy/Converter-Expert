@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- LENGTH CONVERSIONS -->
+<string-array name="lengthConv">
+
+    <item>Centimeter~[cm]</item>
+    <item>Decimeter~[dm]</item>
+    <item>Foot~[ft]</item>
+    <item>Furlong~[fur]</item>
+    <item>Inch~[in]</item>
+    <item>Kilometer~[km]</item>
+    <item>Meter~[m]</item>
+    <item>Micrometer~[μm]</item>
+    <item>Mile~[mi]</item>
+    <item>Millimeter~[mm]</item>
+    <item>Yard~[yd]</item>
+</string-array>
+
+
+<string-array name="lengthConvRates">
+
+    <item>CentimeterDecimeter~0.1</item>
+    <item>CentimeterFoot~0.0328084</item>
+    <item>CentimeterFurlong~0.0000497097</item>
+    <item>CentimeterInch~0.393701</item>
+    <item>CentimeterKilometer~0.00001</item>
+    <item>CentimeterMeter~0.01</item>
+    <item>CentimeterMicrometer~10000</item>
+    <item>CentimeterMile~0.000006213</item>
+    <item>CentimeterMillimeter~10</item>
+    <item>CentimeterYard~0.01093613</item>
+
+    <item>DecimeterFoot~0.328084</item>
+    <item>DecimeterFurlong~0.000497</item>
+    <item>DecimeterInch~3.937</item>
+    <item>DecimeterKilometer~0.0001</item>
+    <item>DecimeterMeter~0.1</item>
+    <item>DecimeterMicrometer~100000</item>
+    <item>DecimeterMile~0.00006213</item>
+    <item>DecimeterMillimeter~100</item>
+    <item>DecimeterYard~0.10936</item>
+
+    <item>FootFurlong~0.001515</item>
+    <item>FootInch~12</item>
+    <item>FootKilometer~0.0003048</item>
+    <item>FootMeter~0.3048</item>
+    <item>FootMicrometer~304800</item>
+    <item>FootMile~0.000189394</item>
+    <item>FootMillimeter~304.8</item>
+    <item>FootYard~0.3333</item>
+
+    <item>FurlongInch~7920</item>
+    <item>FurlongKilometer~0.201168</item>
+    <item>FurlongMeter~201.168</item>
+    <item>FurlongMicrometer~2.01168e8</item>
+    <item>FurlongMile~0.125</item>
+    <item>FurlongMillimeter~201168</item>
+    <item>FurlongYard~220</item>
+
+    <item>InchKilometer~0.0000254</item>
+    <item>InchMeter~0.0254</item>
+    <item>InchMicrometer~25400</item>
+    <item>InchMile~0.000015782</item>
+    <item>InchMillimeter~25.4</item>
+    <item>InchYard~0.02777</item>
+
+    <item>KilometerMeter~1000</item>
+    <item>KilometerMicrometer~1e9</item>
+    <item>KilometerMile~0.621371</item>
+    <item>KilometerMillimeter~1e6</item>
+    <item>KilometerYard~1093.613</item>
+
+    <item>MeterMicrometer~1e6</item>
+    <item>MeterMile~0.0006213</item>
+    <item>MeterMillimeter~1000</item>
+    <item>MeterYard~1.0936</item>
+
+    <item>MicrometerMile~6.2137e-10</item>
+    <item>MicrometerMillimeter~0.001</item>
+    <item>MicrometerYard~.0936e-5</item>
+
+    <item>MileMillimeter~1609344</item>
+    <item>MileYard~1760</item>
+
+    <item>MillimeterYard~0.001093613</item>
+	
+        
+    <!-- MASS CONVERSIONS -->
+    </string-array>
+    <string-array name="massConv">
+
+    <item>Gram~[g]</item>
+    <item>Kilogram~[kg]</item>
+    <item>Ounce~[oz]</item>
+    <item>Pound~[lb]</item>
+    <item>Ton~[t]</item>
+    <item>Ton Long (UK)~[ton]</item>
+    <item>Ton Short (US)~[ton]</item>
+    </string-array>
+    
+    <string-array name="massConvRates">
+
+    <item>GramKilogram~0.001</item>
+    <item>GramOunce~0.03527396</item>
+    <item>GramPound~0.002204623</item>
+    <item>GramTon~0.000001</item>
+    <item>GramTon Long (UK)~0.000000984207</item>
+    <item>GramTon Short (US)~000001102311</item>
+
+    <item>KilogramOunce~35.27396</item>
+    <item>KilogramPound~2.204623</item>
+    <item>KilogramTon~0.001</item>
+    <item>KilogramTon Long (UK)~0.000984207</item>
+    <item>KilogramTon Short (US)~0.001102311</item>
+
+    <item>OuncePound~0.0625</item>
+    <item>OunceTon~0.0000283495</item>
+    <item>OunceTon Long (UK)~0.0000279018</item>
+    <item>OunceTon Short (US)~0.00003125</item>
+
+    <item>PoundTon~0.000453592</item>
+    <item>PoundTon Long (UK)~0.000446429</item>
+    <item>PoundTon Short (US)~0.0005</item>
+
+    <item>TonTon Long (UK)~0.984207</item>
+    <item>TonTon Short (US)~1.102311</item>
+
+    <item>Ton Long (UK)Ton Short (US)~1.12</item>
+
+    </string-array>
+    
+    <!-- AREA CONVERSIONS -->
+    <string-array name="areaConv">
+
+    <item>Acre~[acre]</item>
+    <item>Are~[a]</item>
+    <item>Hectare~[ha]</item>
+    <item>Square Centimeter~[cm²]</item>
+    <item>Square Decimeter~[dm²]</item>
+    <item>Square Foot~[ft²]</item>
+    <item>Square Inch~[in²]</item>
+    <item>Square Kilometer~[km²]</item>
+    <item>Square Meter~[m²]</item>
+    <item>Square Mile~[mi²]</item>
+    <item>Square Millimeter~[mm²]</item>
+    <item>Square Yard~[yd²]</item>
+</string-array>
+
+
+<string-array name="areaConvRates">
+
+    <item>AcreAre~40.4686</item>
+    <item>AcreHectare~0.404686</item>
+    <item>AcreSquare Centimeter~4.04686e7</item>
+    <item>AcreSquare Decimeter~404685.6</item>
+    <item>AcreSquare Foot~43560</item>
+    <item>AcreSquare Inch~6272639</item>
+    <item>AcreSquare Kilometer~0.00404686</item>
+    <item>AcreSquare Meter~4046.86</item>
+    <item>AcreSquare Mile~0.0015625</item>
+    <item>AcreSquare Millimeter~4.04686e9</item>
+    <item>AcreSquare Yard~4840</item>
+
+    <item>AreHectare~0.01</item>
+    <item>AreSquare Centimeter~1e6</item>
+    <item>AreSquare Decimeter~1e4</item>
+    <item>AreSquare Foot~1076.39</item>
+    <item>AreSquare Inch~155000.3</item>
+    <item>AreSquare Kilometer~0.0001</item>
+    <item>AreSquare Meter~100</item>
+    <item>AreSquare Mile~0.0000386102</item>
+    <item>AreSquare Millimeter~1e8</item>
+    <item>AreSquare Yard~119.599</item>
+
+    <item>HectareSquare Centimeter~1e8</item>
+    <item>HectareSquare Decimeter~1e6</item>
+    <item>HectareSquare Foot~107639.1</item>
+    <item>HectareSquare Inch~1.55e7</item>
+    <item>HectareSquare Kilometer~0.01</item>
+    <item>HectareSquare Meter~10000</item>
+    <item>HectareSquare Mile~0.00386102</item>
+    <item>HectareSquare Millimeter~1e10</item>
+    <item>HectareSquare Yard~11959.9</item>
+
+    <item>Square CentimeterSquare Decimeter~0.01</item>
+    <item>Square CentimeterSquare Foot~0.00107639</item>
+    <item>Square CentimeterSquare Inch~0.1550003</item>
+    <item>Square CentimeterSquare Kilometer~1e-10</item>
+    <item>Square CentimeterSquare Meter~0.0001</item>
+    <item>Square CentimeterSquare Mile~3.86102e-11</item>
+    <item>Square CentimeterSquare Millimeter~100</item>
+    <item>Square CentimeterSquare Yard~0.000119599</item>
+
+    <item>Square DecimeterSquare Foot~0.179639</item>
+    <item>Square DecimeterSquare Inch~15.50003</item>
+    <item>Square DecimeterSquare Kilometer~1e-8</item>
+    <item>Square DecimeterSquare Meter~0.01</item>
+    <item>Square DecimeterSquare Mile~3.86102e-9</item>
+    <item>Square DecimeterSquare Millimeter~1e4</item>
+    <item>Square DecimeterSquare Yard~0.0119599</item>
+
+    <item>Square FootSquare Inch~144</item>
+    <item>Square FootSquare Kilometer~9.2903e-8</item>
+    <item>Square FootSquare Meter~0.092903</item>
+    <item>Square FootSquare Mile~3.58701e-8</item>
+    <item>Square FootSquare Millimeter~92903</item>
+    <item>Square FootSquare Yard~0.1111112</item>
+
+    <item>Square InchSquare Kilometer~6.4516e-10</item>
+    <item>Square InchSquare Meter~0.00064516</item>
+    <item>Square InchSquare Mile~2.49098</item>
+    <item>Square InchSquare Millimeter~645.16</item>
+    <item>Square InchSquare Yard~0.000771605</item>
+
+    <item>Square KilometerSquare Meter~1e6</item>
+    <item>Square KilometerSquare Mile~0.386102</item>
+    <item>Square KilometerSquare Millimeter~1e12</item>
+    <item>Square KilometerSquare Yard~1195990.6</item>
+
+    <item>Square MeterSquare Mile~0.000000386102</item>
+    <item>Square MeterSquare Millimeter~1e6</item>
+    <item>Square MeterSquare Yard~1.19599</item>
+
+    <item>Square MileSquare Millimeter~2.58999e12</item>
+    <item>Square MileSquare Yard~3097601.3</item>
+
+    <item>Square MillimeterSquare Yard~0.000000119599</item>
+
+</string-array>
+
+<!-- DATA CONVERSIONS -->
+    <string-array name="dataConv">
+
+    <item>Bit~[bit]</item>
+    <item>Byte~[byte]</item>
+    <item>Gigabit~[Gb]</item>
+    <item>Gigabyte~[GB]</item>
+    <item>Kilobit~[Kb]</item>
+    <item>Kilobyte~[KB]</item>
+    <item>Megabit~[Mb]</item>
+    <item>Megabyte~[MB]</item>
+    <item>Terrabyte~[TB]</item>
+</string-array>
+
+
+<string-array name="dataConvRates">
+
+    <item>BitByte~0.125</item>
+    <item>BitGigabit~9.31323e-10</item>
+    <item>BitGigabyte~1.16415e-10</item>
+    <item>BitKilobit~0.000976562</item>
+    <item>BitKilobyte~0.0001220703</item>
+    <item>BitMegabit~0.000000953674</item>
+    <item>BitMegabyte~0.0000001192093</item>
+    <item>BitTerrabyte~1.13687e-13</item>
+
+    <item>ByteGigabit~7.45058e-9</item>
+    <item>ByteGigabyte~9.31323e-10</item>
+    <item>ByteKilobit~0.0078125</item>
+    <item>ByteKilobyte~0.000976562</item>
+    <item>ByteMegabit~0.0000076294</item>
+    <item>ByteMegabyte~0.000000953674</item>
+    <item>ByteTerrabyte~9.09485e-13</item>
+
+    <item>GigabitGigabyte~0.125</item>
+    <item>GigabitKilobit~1048576</item>
+    <item>GigabitKilobyte~131072</item>
+    <item>GigabitMegabit~1024</item>
+    <item>GigabitMegabyte~128</item>
+    <item>GigabitTerrabyte~0.0001220703</item>
+
+    <item>GigabyteKilobit~8388608</item>
+    <item>GigabyteKilobyte~1048576</item>
+    <item>GigabyteMegabit~8192</item>
+    <item>GigabyteMegabyte~1024</item>
+    <item>GigabyteTerrabyte~0.000976563</item>
+
+    <item>KilobitKilobyte~0.125</item>
+    <item>KilobitMegabit~0.000976562</item>
+    <item>KilobitMegabyte~0.0001220703</item>
+    <item>KilobitTerrabyte~1.16415e-10</item>
+
+    <item>KilobyteMegabit~0.0078125</item>
+    <item>KilobyteMegabyte~0.000976562</item>
+    <item>KilobyteTerrabyte~9.31323e-10</item>
+
+    <item>MegabitMegabyte~0.125</item>
+    <item>MegabitTerrabyte~0.0000001192093</item>
+
+    <item>MegabyteTerrabyte~0.000000953674</item>
+</string-array>
+
+<!-- TIME CONVERSIONS -->
+    <string-array name="timeConv">
+
+    <item>Day~[d]</item>
+    <item>Hour~[h]</item>
+    <item>Micosecond~[μs]</item>
+    <item>Millisecond~[ms]</item>
+    <item>Minute~[m]</item>
+    <item>Month~[mth]</item>
+    <item>Nanosecond~[ns]</item>
+    <item>Second~[s]</item>
+    <item>Week~[wk]</item>
+    <item>Year~[yr]</item>
+</string-array>
+
+
+<string-array name="timeConvRates">
+
+    <item>DayHour~24</item>
+    <item>DayMicosecond~8.64e10</item>
+    <item>DayMillisecond~8.64e7</item>
+    <item>DayMinute~1440</item>
+    <item>DayMonth~0.0328767</item>
+    <item>DayNanosecond~8.64e13</item>
+    <item>DaySecond~86400</item>
+    <item>DayWeek~0.1428571</item>
+    <item>DayYear~0.002739726</item>
+
+    <item>HourMicosecond~3.6e9</item>
+    <item>HourMillisecond~3600000</item>
+    <item>HourMinute~60</item>
+    <item>HourMonth~0.001369863</item>
+    <item>HourNanosecond~3.6e12</item>
+    <item>HourSecond~3600</item>
+    <item>HourWeek~0.00595238</item>
+    <item>HourYear~0.0001141553</item>
+
+    <item>MicosecondMillisecond~0.001</item>
+    <item>MicosecondMinute~1.66667e-8</item>
+    <item>MicosecondMonth~3.80518e-13</item>
+    <item>MicosecondNanosecond~1000</item>
+    <item>MicosecondSecond~0.000001</item>
+    <item>MicosecondWeek~1.65344e-12</item>
+    <item>MicosecondYear~3.17098e-14</item>
+
+    <item>MillisecondMinute~0.00001666667</item>
+    <item>MillisecondMonth~3.80518e-10</item>
+    <item>MillisecondNanosecond~1000000</item>
+    <item>MillisecondSecond~0.001</item>
+    <item>MillisecondWeek~1.65344e-9</item>
+    <item>MillisecondYear~3.17098e-11</item>
+
+    <item>MinuteMonth~0.00002283105</item>
+    <item>MinuteNanosecond~6e10</item>
+    <item>MinuteSecond~60</item>
+    <item>MinuteWeek~0.0000992063</item>
+    <item>MinuteYear~0.000001902588</item>
+
+    <item>MonthNanosecond~2628e15</item>
+    <item>MonthSecond~2628000</item>
+    <item>MonthWeek~4.34524</item>
+    <item>MonthYear~0.0833333</item>
+
+    <item>NanosecondSecond~1e-9</item>
+    <item>NanosecondWeek~1.65344e-15</item>
+    <item>NanosecondYear~3.17098e-17</item>
+
+    <item>SecondWeek~0.00000165344</item>
+    <item>SecondYear~3.17098e-8</item>
+
+    <item>WeekYear~0.0191781</item>
+
+
+</string-array>
+
+<!-- SPEED CONVERSIONS -->
+    <string-array name="speedConv">
+    <item>Centimeter/minute~[cm/min]</item>
+    <item>Centimeter/second~[cm/s]</item>
+    <item>Foot/minute~[ft/min]</item>
+    <item>Foot/second~[ft/s]</item>
+    <item>Kilometer/hour~[km/hr]</item>
+    <item>Kilometer/minute~[km/min]</item>
+    <item>Knot~[kn]</item>
+    <item>Meter/minute~[m/min]</item>
+    <item>Meter/second~[m/sec]</item>
+    <item>Mile/hour~[mi/hr]</item>
+    <item>Mile/minute~[mi/min]</item>
+</string-array>
+
+
+<string-array name="speedConvRates">
+    <item>Centimeter/minuteCentimeter/second~0.0166667</item>
+    <item>Centimeter/minuteFoot/minute~0.0328084</item>
+    <item>Centimeter/minuteFoot/second~0.000546807</item>
+    <item>Centimeter/minuteKilometer/hour~0.0006</item>
+    <item>Centimeter/minuteKilometer/minute~0.00001</item>
+    <item>Centimeter/minuteKnot~0.000323974</item>
+    <item>Centimeter/minuteMeter/minute~0.01</item>
+    <item>Centimeter/minuteMeter/second~0.0001666667</item>
+    <item>Centimeter/minuteMile/hour~0.000372823</item>
+    <item>Centimeter/minuteMile/minute~0.00000621371</item>
+
+    <item>Centimeter/secondFoot/minute~0.0328084</item>
+    <item>Centimeter/secondFoot/second~0.000546807</item>
+    <item>Centimeter/secondKilometer/hour~0.0006</item>
+    <item>Centimeter/secondKilometer/minute~0.00001</item>
+    <item>Centimeter/secondKnot~0.000323974</item>
+    <item>Centimeter/secondMeter/minute~0.01</item>
+    <item>Centimeter/secondMeter/second~0.000166667</item>
+    <item>Centimeter/secondMile/hour~0.000372823</item>
+    <item>Centimeter/secondMile/minute~0.00000621371</item>
+
+    <item>Foot/minuteFoot/second~0.0166667</item>
+    <item>Foot/minuteKilometer/hour~0.018288</item>
+    <item>Foot/minuteKilometer/minute~0.0003048</item>
+    <item>Foot/minuteKnot~0.00987273</item>
+    <item>Foot/minuteMeter/minute~0.3048</item>
+    <item>Foot/minuteMeter/second~0.00508</item>
+    <item>Foot/minuteMile/hour~0.01136364</item>
+    <item>Foot/minuteMile/minute~0.000189394</item>
+
+    <item>Foot/secondKilometer/hour~1.09728</item>
+    <item>Foot/secondKilometer/minute~0.018288</item>
+    <item>Foot/secondKnot~0.592484</item>
+    <item>Foot/secondMeter/minute~18.288</item>
+    <item>Foot/secondMeter/second~0.3048</item>
+    <item>Foot/secondMile/hour~0.681818</item>
+    <item>Foot/secondMile/minute~0.01136364</item>
+
+    <item>Kilometer/hourKilometer/minute~0.01666667</item>
+    <item>Kilometer/hourKnot~0.539957</item>
+    <item>Kilometer/hourMeter/minute~16.66667</item>
+    <item>Kilometer/hourMeter/second~0.277778</item>
+    <item>Kilometer/hourMile/hour~0.621371</item>
+    <item>Kilometer/hourMile/minute~0.01035619</item>
+
+    <item>Kilometer/minuteKnot~32.3974</item>
+    <item>Kilometer/minuteMeter/minute~1000</item>
+    <item>Kilometer/minuteMeter/second~16.66667</item>
+    <item>Kilometer/minuteMile/hour~37.2823</item>
+    <item>Kilometer/minuteMile/minute~0.621371</item>
+
+    <item>KnotMeter/minute~30.866667</item>
+    <item>KnotMeter/second~0.514444</item>
+    <item>KnotMile/hour~1.15078</item>
+    <item>KnotMile/minute~0.01917966</item>
+
+    <item>Meter/minuteMeter/second~0.0166667</item>
+    <item>Meter/minuteMile/hour~0.0372823</item>
+    <item>Meter/minuteMile/minute~0.000621371</item>
+
+    <item>Meter/secondMile/hour~2.236936</item>
+    <item>Meter/secondMile/minute~0.0372823</item>
+
+    <item>Mile/hourMile/minute~0.0166667</item>
+
+
+</string-array>
+<!-- Density CONVERSIONS -->
+    <string-array name="densityConv">
+    <item>Gram/centimeter³~[g/cm³]</item>
+    <item>Kilogram/meter³~[kg/m³]</item>
+    <item>Ounce/gallon (imp)~[oz/gal]</item>
+    <item>Ounce/gallon (US)~[oz/gal]</item>
+    <item>Ounce/inch³~[oz/in³]</item>
+    <item>Pound/foot³~[lb/ft³]</item>
+    <item>Pound/gallon (imp.)~[lb/gal]</item>
+    <item>Pound/gallon(US)~[lb/gal]</item>
+    <item>Pound/inch³~[lb/in³]</item>
+    <item>Pound/yard³~[lb/yd³]</item>
+    <item>Ton(long)/yard³~[ton/yd³]</item>
+    <item>Ton(short)/yard³~[ton/yd³]</item>
+</string-array>
+
+
+<string-array name="densityConvRates">
+    <item>Gram/centimeter³Kilogram/meter³~1000</item>
+    <item>Gram/centimeter³Ounce/gallon (imp)~160.3586</item>
+    <item>Gram/centimeter³Ounce/gallon (US)~133.5265</item>
+    <item>Gram/centimeter³Ounce/inch³~0.578037</item>
+    <item>Gram/centimeter³Pound/foot³~62.428</item>
+    <item>Gram/centimeter³Pound/gallon (imp.)~10.02241</item>
+    <item>Gram/centimeter³Pound/gallon(US)~8.3454</item>
+    <item>Gram/centimeter³Pound/inch³~0.0361273</item>
+    <item>Gram/centimeter³Pound/yard³~1685.555</item>
+    <item>Gram/centimeter³Ton(long)/yard³~0.75248</item>
+    <item>Gram/centimeter³Ton(short)/yard³~0.842777</item>
+
+    <item>Kilogram/meter³Ounce/gallon (imp)~0.1603586</item>
+    <item>Kilogram/meter³Ounce/gallon (US)~0.1335265</item>
+    <item>Kilogram/meter³Ounce/inch³~0.000578037</item>
+    <item>Kilogram/meter³Pound/foot³~0.062428</item>
+    <item>Kilogram/meter³Pound/gallon (imp.)~0.01002241</item>
+    <item>Kilogram/meter³Pound/gallon(US)~0.0083454</item>
+    <item>Kilogram/meter³Pound/inch³~0.0000361273</item>
+    <item>Kilogram/meter³Pound/yard³~1.685555</item>
+    <item>Kilogram/meter³Ton(long)/yard³~0.00075248</item>
+    <item>Kilogram/meter³Ton(short)/yard³~0.000842777</item>
+
+    <item>Ounce/gallon (imp)Ounce/gallon (US)~0.832674</item>
+    <item>Ounce/gallon (imp)Ounce/inch³~0.00360465</item>
+    <item>Ounce/gallon (imp)Pound/foot³~0.389302</item>
+    <item>Ounce/gallon (imp)Pound/gallon (imp.)~0.0625</item>
+    <item>Ounce/gallon (imp)Pound/gallon(US)~0.0520421</item>
+    <item>Ounce/gallon (imp)Pound/inch³~0.0002252906</item>
+    <item>Ounce/gallon (imp)Pound/yard³~10.51116</item>
+    <item>Ounce/gallon (imp)Ton(long)/yard³~0.00469248</item>
+    <item>Ounce/gallon (imp)Ton(short)/yard³~0.00525558</item>
+
+    <item>Ounce/gallon (US)Ounce/inch³~0.004329004</item>
+    <item>Ounce/gallon (US)Pound/foot³~0.4675325</item>
+    <item>Ounce/gallon (US)Pound/gallon (imp.)~0.0750594</item>
+    <item>Ounce/gallon (US)Pound/gallon(US)~0.0625</item>
+    <item>Ounce/gallon (US)Pound/inch³~0.000270563</item>
+    <item>Ounce/gallon (US)Pound/yard³~12.62338</item>
+    <item>Ounce/gallon (US)Ton(long)/yard³~0.00563544</item>
+    <item>Ounce/gallon (US)Ton(short)/yard³~0.00631169</item>
+
+    <item>Ounce/inch³Pound/foot³~108</item>
+    <item>Ounce/inch³Pound/gallon (imp.)~17.3387</item>
+    <item>Ounce/inch³Pound/gallon(US)~14.4375</item>
+    <item>Ounce/inch³Pound/inch³~0.0625</item>
+    <item>Ounce/inch³Pound/yard³~2916</item>
+    <item>Ounce/inch³Ton(long)/yard³~1.1301786</item>
+    <item>Ounce/inch³Ton(short)/yard³~1.458</item>
+
+    <item>Pound/foot³Pound/gallon (imp.)~0.1605437</item>
+    <item>Pound/foot³Pound/gallon(US)~0.1336806</item>
+    <item>Pound/foot³Pound/inch³~0.000578704</item>
+    <item>Pound/foot³Pound/yard³~27</item>
+    <item>Pound/foot³Ton(long)/yard³~0.01205357</item>
+    <item>Pound/foot³Ton(short)/yard³~0.135</item>
+
+    <item>Pound/gallon (imp.)Pound/gallon(US)~0.832674</item>
+    <item>Pound/gallon (imp.)Pound/inch³~0.00360465</item>
+    <item>Pound/gallon (imp.)Pound/yard³~168.1786</item>
+    <item>Pound/gallon (imp.)Ton(long)/yard³~0.0750797</item>
+    <item>Pound/gallon (imp.)Ton(short)/yard³~0.0840893</item>
+
+    <item>Pound/gallon(US)Pound/inch³~0.004329</item>
+    <item>Pound/gallon(US)Pound/yard³~201.974</item>
+    <item>Pound/gallon(US)Ton(long)/yard³~0.090167</item>
+    <item>Pound/gallon(US)Ton(short)/yard³~0.100987</item>
+
+    <item>Pound/inch³Pound/yard³~46656</item>
+    <item>Pound/inch³Ton(long)/yard³~20.82857</item>
+    <item>Pound/inch³Ton(short)/yard³~23.328</item>
+
+    <item>Pound/yard³Ton(long)/yard³~0.000446429</item>
+    <item>Pound/yard³Ton(short)/yard³~0.0005</item>
+
+    <item>Ton(long)/yard³Ton(short)/yard³~1.12</item>
+
+
+</string-array>
+
+<!-- Energy CONVERSIONS -->
+    <string-array name="energyConv">
+    <item>BTU~[BTU]</item>
+    <item>Calories~[cal]</item>
+    <item>Erg~[erg]</item>
+    <item>Foot-Pounds~[fp]</item>
+    <item>Joule~[j]</item>
+    <item>Kilocalories~[kcal]</item>
+    <item>Kilowatt-hour~[kWh]</item>
+    <item>Watt-hour~[Wh]</item>
+</string-array>
+
+
+<string-array name="energyConvRates">
+    <item>BTUCalories~251.996</item>
+    <item>BTUErg~1.05506e10</item>
+    <item>BTUFoot-Pounds~778.17</item>
+    <item>BTUJoule~1055.056</item>
+    <item>BTUKilocalories~0.251996</item>
+    <item>BTUKilowatt-hour~0.000293071</item>
+    <item>BTUWatt-hour~0.293071</item>
+
+    <item>CaloriesErg~1.1868e7</item>
+    <item>CaloriesFoot-Pounds~3.088025</item>
+    <item>CaloriesJoule~4.1868</item>
+    <item>CaloriesKilocalories~0.001</item>
+    <item>CaloriesKilowatt-hour~0.000001163</item>
+    <item>CaloriesWatt-hour~0.001163</item>
+
+    <item>ErgFoot-Pounds~7.37562e-8</item>
+    <item>ErgJoule~1e-7</item>
+    <item>ErgKilocalories~2.38846e-11</item>
+    <item>ErgKilowatt-hour~2.77778e-14</item>
+    <item>ErgWatt-hour~2.77778e-11</item>
+
+    <item>Foot-PoundsJoule~1.355818</item>
+    <item>Foot-PoundsKilocalories~0.0003238315</item>
+    <item>Foot-PoundsKilowatt-hour~0.000000376616</item>
+    <item>Foot-PoundsWatt-hour~1.355818</item>
+
+    <item>JouleKilocalories~0.000238846</item>
+    <item>JouleKilowatt-hour~0.000000277778</item>
+    <item>JouleWatt-hour~0.000277778</item>
+
+    <item>KilocaloriesKilowatt-hour~0.001163</item>
+    <item>KilocaloriesWatt-hour~1.163</item>
+
+    <item>Kilowatt-hourWatt-hour~1000</item>
+
+
+</string-array>
+
+<!-- Force CONVERSIONS -->
+    <string-array name="forceConv">
+    <item>Dyne~[dyn]</item>
+    <item>Kilonewton~[kN]</item>
+    <item>Newton~[N]</item>
+    <item>Pound-Force~[lbF]</item>
+    <item>Poundal~[dl]</item>
+</string-array>
+
+
+<string-array name="forceConvRates">
+    <item>DyneKilonewton~1e-8</item>
+    <item>DyneNewton~0.00001</item>
+    <item>DynePound-Force~0.00000224809</item>
+    <item>DynePoundal~0.0000723301</item>
+
+    <item>KilonewtonNewton~1000</item>
+    <item>KilonewtonPound-Force~224.809</item>
+    <item>KilonewtonPoundal~7233.01</item>
+
+    <item>NewtonPound-Force~0.224809</item>
+    <item>NewtonPoundal~7.23301</item>
+
+    <item>Pound-ForcePoundal~32.17404</item>
+
+
+</string-array>
+
+<!-- Freq CONVERSIONS -->
+    <string-array name="freqConv">
+    <item>Gigahertz~[GHz]</item>
+    <item>Hertz~[Hz]</item>
+    <item>Megahertz~[MHz]</item>
+    <item>Terahertz~[THz]</item>
+</string-array>
+
+
+<string-array name="freqConvRates">
+    <item>GigahertzHertz~1e9</item>
+    <item>GigahertzMegahertz~1000</item>
+    <item>GigahertzTerahertz~0.001</item>
+
+    <item>HertzMegahertz~0.000001</item>
+    <item>HertzTerahertz~1e-12</item>
+
+    <item>MegahertzTerahertz~0.000001</item>
+</string-array>
+
+<!-- Dynamic Viscosity CONVERSIONS -->
+    <string-array name="dvisConv">
+    <item>Centipoise~[cP]</item>
+    <item>Lb sec/ft²~[lbs/ft²]</item>
+    <item>Lb/footsec~[lb/fts]</item>
+    <item>N sec/m²~[Ns/m²]</item>
+    <item>Poise~[P]</item>
+</string-array>
+
+
+<string-array name="dvisConvRates">
+    <item>CentipoiseLb sec/ft²~0.000020886</item>
+    <item>CentipoiseLb/footsec~0.000672088</item>
+    <item>CentipoiseN sec/m²~0.001</item>
+    <item>CentipoisePoise~0.01</item>
+
+    <item>Lb sec/ft²Lb/footsec~32.1789</item>
+    <item>Lb sec/ft²N sec/m²~47.879</item>
+    <item>Lb sec/ft²Poise~478.79</item>
+
+    <item>Lb/footsecN sec/m²~1.4879</item>
+    <item>Lb/footsecPoise~14.879</item>
+
+    <item>N sec/m²Poise~10</item>
+
+
+</string-array>
+
+<!-- Kinematic Viscosity CONVERSIONS -->
+    <string-array name="kvisConv">
+    <item>Sq.feet per Second~[ft²/s]</item>
+    <item>Sq.meter per Second~[m²/s]</item>
+    <item>Stokes~[St]</item>
+</string-array>
+
+
+<string-array name="kvisConvRates">
+    <item>Sq.feet per SecondSq.meter per Second~0.092937</item>
+    <item>Sq.feet per SecondStokes~929.37</item>
+
+    <item>Sq.meter per SecondStokes~1000</item>
+
+
+</string-array>
+<!-- Pressure Viscosity CONVERSIONS -->
+    <string-array name="pressureConv">
+    <item>Bar~[bar]</item>
+    <item>Decapascal~[daPa]</item>
+    <item>Gigapascal~[gPa]</item>
+    <item>Kilo pound/in²~[ksi]</item>
+    <item>Kilopascal~[kPa]</item>
+    <item>Megapascal~[MPa]</item>
+    <item>Pascal~[Pa]</item>
+    <item>Atmosphere~[atm]</item>
+    <item>Pound/ft²~[psf]</item>
+    <item>Pound/in²~[psi]</item>
+    <item>Torr~[torr]</item>
+</string-array>
+
+
+<string-array name="pressureConvRates">
+    <item>BarDecapascal~10000</item>
+    <item>BarGigapascal~0.0001</item>
+    <item>BarKilo pound/in²~0.01450368</item>
+    <item>BarKilopascal~100</item>
+    <item>BarMegapascal~0.1</item>
+    <item>BarPascal~100000</item>
+    <item>BarAtmosphere~0.986923</item>
+    <item>BarPound/ft²~2088.543</item>
+    <item>BarPound/in²~14.50368</item>
+    <item>BarTorr~750.062</item>
+
+    <item>DecapascalGigapascal~1e-8</item>
+    <item>DecapascalKilo pound/in²~0.000001450368</item>
+    <item>DecapascalKilopascal~0.01</item>
+    <item>DecapascalMegapascal~0.00001</item>
+    <item>DecapascalPascal~10</item>
+    <item>DecapascalAtmosphere~0.0000986923</item>
+    <item>DecapascalPound/ft²~0.2088543</item>
+    <item>DecapascalPound/in²~0.001450368</item>
+    <item>DecapascalTorr~0.000101971</item>
+
+    <item>GigapascalKilo pound/in²~145.0368</item>
+    <item>GigapascalKilopascal~1000000</item>
+    <item>GigapascalMegapascal~1000</item>
+    <item>GigapascalPascal~1e9</item>
+    <item>GigapascalAtmosphere~9869.23</item>
+    <item>GigapascalPound/ft²~2.08854e7</item>
+    <item>GigapascalPound/in²~145036.8</item>
+    <item>GigapascalTorr~7500616.7</item>
+
+    <item>Kilo pound/in²Kilopascal~6894.8</item>
+    <item>Kilo pound/in²Megapascal~6.8948</item>
+    <item>Kilo pound/in²Pascal~6894800</item>
+    <item>Kilo pound/in²Atmosphere~68.0464</item>
+    <item>Kilo pound/in²Pound/ft²~144000.9</item>
+    <item>Kilo pound/in²Pound/in²~1000</item>
+    <item>Kilo pound/in²Torr~51715.25</item>
+
+    <item>KilopascalMegapascal~0.001</item>
+    <item>KilopascalPascal~1000</item>
+    <item>KilopascalAtmosphere~0.00986923</item>
+    <item>KilopascalPound/ft²~20.88543</item>
+    <item>KilopascalPound/in²~0.1450368</item>
+    <item>KilopascalTorr~7.50062</item>
+
+    <item>MegapascalPascal~1000000</item>
+    <item>MegapascalAtmosphere~9.86923</item>
+    <item>MegapascalPound/ft²~20885.43</item>
+    <item>MegapascalPound/in²~145.0368</item>
+    <item>MegapascalTorr~7500.62</item>
+
+    <item>PascalAtmosphere~0.00000986923</item>
+    <item>PascalPound/ft²~0.02088543</item>
+    <item>PascalPound/in²~0.0001450368</item>
+    <item>PascalTorr~0.00750062</item>
+
+    <item>AtmospherePound/ft²~2116.217</item>
+    <item>AtmospherePound/in²~14.69586</item>
+    <item>AtmosphereTorr~760</item>
+
+    <item>Pound/ft²Pound/in²~0.0069444</item>
+    <item>Pound/ft²Torr~0.3591315</item>
+
+    <item>Pound/in²Torr~51.71525</item>
+
+</string-array>
+
+<!-- TEMPERATURE CONVERSIONS -->
+    <string-array name="tempConv">
+    <item>Celsius~[ºC]</item>
+    <item>Fahrenheit~[F]</item>
+    <item>Kelvin~[K]</item>
+</string-array>
+
+
+
+</resources>

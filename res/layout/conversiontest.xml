@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fromtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from"
+        android:textSize="24dp" />
+
+    <Spinner
+        android:id="@+id/SpinnerFrom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fromtxt" />
+
+    <EditText
+        android:id="@+id/editTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/SpinnerFrom"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/SpinnerFrom"
+        android:hint="@string/hint"
+        android:inputType="numberDecimal"
+        android:maxLength="17"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="24dp" />
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/unitsFrom" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignBaseline="@+id/editTxt" -->
+    <!-- android:layout_alignBottom="@+id/editTxt" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/unitsTo" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignBaseline="@+id/editTxt2" -->
+    <!-- android:layout_alignBottom="@+id/editTxt2" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+
+    <Button
+        android:id="@+id/swapBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTxt"
+        android:layout_centerHorizontal="true"
+        android:text="@string/swap"
+        android:textSize="16dp" />
+
+    <Spinner
+        android:id="@+id/SpinnerTo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/swapBtn"
+        android:layout_toRightOf="@+id/fromtxt" />
+
+    <EditText
+        android:id="@+id/editTxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/SpinnerTo"
+        android:layout_toRightOf="@+id/fromtxt"
+        android:digits="0123456789."
+        android:editable="false"
+        android:hint="@string/hint2"
+        android:inputType="numberDecimal"
+        android:maxLength="17"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/totxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/SpinnerTo"
+        android:layout_alignBottom="@+id/SpinnerTo"
+        android:layout_alignParentLeft="true"
+        android:text="@string/to"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/copybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/editTxt2"
+        android:text="Copy" />
+
+</RelativeLayout>
